@@ -19,3 +19,5 @@ Click `browse` and select an input file
 Click `Run program`
 
 The example input/output files can be seen [here](data/ITAG4.1_proteins.fasta) and [here](data/ITAG4.1_proteins_small_seqs.fasta) respectively
+
+Input file for was downloaded from solgenomics.net tomato annotation version 4.1.
