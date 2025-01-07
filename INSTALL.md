@@ -34,3 +34,21 @@ The first time you launch a newly installed Linux distribution, a console window
 sudo apt update && sudo apt upgrade
 ```
 When the `$` is returned the update will be finished
+
+8. Close the termimal after the update finishes
+
+9. Open the terminal and download  `fasta_small_seq_collector.sh`
+
+```Bash
+wget https://raw.githubusercontent.com/BioGUIwsl1Lab/FASTA-Small-Seq-Collector/refs/heads/main/src/bash/fasta_small_seq_collector.sh
+```
+10. Convert to executable
+
+```Bash
+chmod +x fasta_small_seq_collector.sh
+```
+11. Move to the `/usr/bin` folder
+
+```Bash
+sudo mv fasta_small_seq_collector.sh /usr/bin
+```  

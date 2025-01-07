@@ -15,7 +15,7 @@ def run_pipeline(input_file, progress_bar):
     # Select input file
     infile = os.path.basename(input_file)
 
-    outfile = f"{os.path.splitext(infile)[0]}_small_seq.fasta"
+    outfile = f"{os.path.splitext(infile)[0]}_small_seqs.fasta"
     
     # Change to the input file's directory
     os.chdir(input_directory)
